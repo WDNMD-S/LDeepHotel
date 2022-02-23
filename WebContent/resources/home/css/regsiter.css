@@ -1,0 +1,92 @@
+ .panel {
+          float: left;
+    min-height: 100px;
+    padding: 1.2em .6em;
+    }
+    .form-group {
+      margin-bottom:18px;
+    }
+    .form-group > label {
+     display: inline-block;
+    width: 100px;
+    text-align: right;
+    }
+    .form-group > input {
+      width: 250px;
+      height:28px;
+      padding: 4px;
+      border-radius: 2px;
+      border: 1px solid #aaa;
+    }
+ .form-group .msg-default {
+    color: #999;
+    }
+   .form-group .msg-error {
+     color: #d00;
+    }
+ .form-group  .msg-success {
+     color: #0d0;
+    }
+    .hidden {
+      display: none;
+    }
+    input[type="button"] {
+      background: #DD4C40;
+      width: 260px;
+      height:32px;
+      color: #fff;
+      font-size:16px;
+    }
+    .form-group .btn_default{
+      background: rgba(221, 76, 64, 0.46);
+    }
+    .login{
+        width:226px;
+        height: 118px;
+        line-height: 118px;
+        padding-left: 46px;
+        background: url("../images/m-5.jpg") no-repeat ;
+    }
+    .login a{
+        color: #DD4C40;
+    }
+    
+    
+.error{
+  color:#DD4C40;
+  width:100px;
+  height:32px;
+  font-size:18px;
+}
+
+#ad{
+   padding:10px;
+   float:right;
+   width:260px;
+}
+#ad img{
+  width:240px;
+}
+#ad>p{
+  color:#DD4C40;
+  margin-bottom:10px;
+}
+#ad>ul{
+   margin:10px 10px 22px 10px;
+}
+#ad>ul>li{
+   line-height:32px;
+}
+
+#ad>ul>li>b{
+    display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background:#DD4C40;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+	margin-right:10px;
+}
+    
